@@ -60,9 +60,18 @@ export default (props) => {
             href="/"
           >
             <span>View Recipes</span>
-            <Icon name="play" />
+            <Icon name="play" hasFill />
           </ Button>
         </footer>
+
+        <img
+          className="hero-card__badge"
+          src="/images/badge.svg"
+          alt="Handpicked recipes"
+          width={150}
+          height={150}
+          loading="lazy"
+        />
       </div>
 
       <Image
